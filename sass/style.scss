@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'reset';
+@import 'helpers';
+@import 'card';
+
+
+body{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

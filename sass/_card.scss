@@ -1,0 +1,15 @@
+.card{
+    width: $width_box;
+    background-color: $color_box;
+    color: $color_typo;
+    margin-bottom: 5rem;
+    img{
+        width: $width_box;
+    }
+    .card-content{
+        padding: 5rem 5rem;
+        p{
+            margin: 3rem 0;
+        }
+    }
+}
