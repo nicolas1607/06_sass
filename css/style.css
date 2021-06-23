@@ -158,6 +158,7 @@ address {
   background-color: lightgray;
   color: black;
   margin-bottom: 5rem;
+  box-shadow: 2px 2px 10px;
 }
 .card img {
   width: 50rem;
@@ -165,15 +166,65 @@ address {
 .card .card-content {
   padding: 5rem 5rem;
 }
-.card .card-content p {
+.card .card-content .card-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3.2rem;
+}
+.card .card-content p, .card .card-content a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.8rem;
   margin: 3rem 0;
+  text-decoration: none;
+}
+.card .card-content a {
+  color: black;
+  outline: 0.1rem solid;
+  outline-offset: 1rem;
+}
+.card .card-content:hover {
+  background-color: gray;
+}
+.card .card-content:hover, .card .card-content:hover a {
+  color: white;
+}
+
+.card_resize {
+  width: 80rem;
+  background-color: lightgray;
+  color: black;
+  margin-bottom: 5rem;
+  box-shadow: 2px 2px 10px;
+}
+.card_resize img {
+  width: 80rem;
+}
+.card_resize .card-content {
+  padding: 5rem 5rem;
+}
+.card_resize .card-content .card-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3.2rem;
+}
+.card_resize .card-content p, .card_resize .card-content a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.8rem;
+  margin: 3rem 0;
+  text-decoration: none;
+}
+.card_resize .card-content a {
+  color: black;
+  outline: 0.1rem solid;
+  outline-offset: 1rem;
+}
+.card_resize .card-content:hover {
+  background-color: gray;
+}
+.card_resize .card-content:hover, .card_resize .card-content:hover a {
+  color: white;
 }
 
 body {
   padding: 5rem;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */
