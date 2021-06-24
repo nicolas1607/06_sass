@@ -177,15 +177,16 @@ address {
   text-decoration: none;
 }
 .card .card-content a {
+  padding: 1rem;
   color: black;
-  outline: 0.1rem solid;
-  outline-offset: 1rem;
+  border: 0.1rem solid;
+}
+.card .card-content a:hover {
+  background-color: black;
+  color: white;
 }
 .card .card-content:hover {
-  background-color: gray;
-}
-.card .card-content:hover, .card .card-content:hover a {
-  color: white;
+  background-color: white;
 }
 
 .card_resize {
@@ -212,15 +213,16 @@ address {
   text-decoration: none;
 }
 .card_resize .card-content a {
+  padding: 1rem;
   color: black;
-  outline: 0.1rem solid;
-  outline-offset: 1rem;
+  border: 0.1rem solid;
+}
+.card_resize .card-content a:hover {
+  background-color: black;
+  color: white;
 }
 .card_resize .card-content:hover {
-  background-color: gray;
-}
-.card_resize .card-content:hover, .card_resize .card-content:hover a {
-  color: white;
+  background-color: white;
 }
 
 body {

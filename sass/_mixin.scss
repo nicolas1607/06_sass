@@ -22,14 +22,15 @@
         text-decoration: none;
     }
     a{
+        padding: 1rem;
         color: black;
-        outline: .1rem solid;
-        outline-offset: 1rem;
-    }
-    &:hover{
-        background-color: gray;
-        &, a{
+        border: .1rem solid;
+        &:hover{
+            background-color: black;
             color: white;
         }
+    }
+    &:hover{
+        background-color: white;
     }
 }
